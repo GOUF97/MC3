@@ -11,6 +11,7 @@
 		9146BA2E2122DEEF0018F8AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9146BA2D2122DEEF0018F8AA /* ViewController.swift */; };
 		9146BAB0212AA6D60018F8AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9146BAAC212AA6D60018F8AA /* LaunchScreen.storyboard */; };
 		9146BAB1212AA6D60018F8AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9146BAAE212AA6D60018F8AA /* Main.storyboard */; };
+		9146BAB8212AA8F60018F8AA /* ChooseUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9146BAB7212AA8F60018F8AA /* ChooseUser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		9146BA88212AA6160018F8AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9146BAAD212AA6D60018F8AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9146BAAF212AA6D60018F8AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9146BAB7212AA8F60018F8AA /* ChooseUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseUser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +74,7 @@
 		9146BA3F2122DF3B0018F8AA /* View */ = {
 			isa = PBXGroup;
 			children = (
-				9146BAAB212AA6D60018F8AA /* New Group */,
+				9146BAAB212AA6D60018F8AA /* View */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -88,7 +90,6 @@
 				9146BA42212A97800018F8AA /* choose */,
 				9146BA41212A97630018F8AA /* splash screen */,
 				9146BA2B2122DEEF0018F8AA /* AppDelegate.swift */,
-				9146BA2D2122DEEF0018F8AA /* ViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -96,6 +97,7 @@
 		9146BA41212A97630018F8AA /* splash screen */ = {
 			isa = PBXGroup;
 			children = (
+				9146BA2D2122DEEF0018F8AA /* ViewController.swift */,
 			);
 			path = "splash screen";
 			sourceTree = "<group>";
@@ -103,6 +105,7 @@
 		9146BA42212A97800018F8AA /* choose */ = {
 			isa = PBXGroup;
 			children = (
+				9146BAB7212AA8F60018F8AA /* ChooseUser.swift */,
 			);
 			path = choose;
 			sourceTree = "<group>";
@@ -382,14 +385,14 @@
 			path = "request komunitas";
 			sourceTree = "<group>";
 		};
-		9146BAAB212AA6D60018F8AA /* New Group */ = {
+		9146BAAB212AA6D60018F8AA /* View */ = {
 			isa = PBXGroup;
 			children = (
 				9146BAAC212AA6D60018F8AA /* LaunchScreen.storyboard */,
 				9146BAAE212AA6D60018F8AA /* Main.storyboard */,
 			);
-			name = "New Group";
-			path = "../../../../Downloads/spareFood 2/sparefood/New Group";
+			name = View;
+			path = "../../../../Downloads/spareFood 2/sparefood/View";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -463,6 +466,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9146BA2E2122DEEF0018F8AA /* ViewController.swift in Sources */,
+				9146BAB8212AA8F60018F8AA /* ChooseUser.swift in Sources */,
 				9146BA2C2122DEEF0018F8AA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
