@@ -54,14 +54,334 @@
 		9146BA2A2122DEEF0018F8AA /* MC3 */ = {
 			isa = PBXGroup;
 			children = (
-				9146BA2B2122DEEF0018F8AA /* AppDelegate.swift */,
-				9146BA2D2122DEEF0018F8AA /* ViewController.swift */,
-				9146BA2F2122DEEF0018F8AA /* Main.storyboard */,
+				9146BA402122DF470018F8AA /* Controller */,
+				9146BA3E2122DF290018F8AA /* Model */,
+				9146BA3F2122DF3B0018F8AA /* View */,
 				9146BA322122DEF40018F8AA /* Assets.xcassets */,
-				9146BA342122DEF40018F8AA /* LaunchScreen.storyboard */,
 				9146BA372122DEF40018F8AA /* Info.plist */,
 			);
 			path = MC3;
+			sourceTree = "<group>";
+		};
+		9146BA3E2122DF290018F8AA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9146BA3F2122DF3B0018F8AA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9146BA2F2122DEEF0018F8AA /* Main.storyboard */,
+				9146BA342122DEF40018F8AA /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9146BA402122DF470018F8AA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9146BA6B212A9EFB0018F8AA /* request */,
+				9146BA68212A9DE50018F8AA /* profile */,
+				9146BA4B212A98850018F8AA /* home */,
+				9146BA44212A979E0018F8AA /* login */,
+				9146BA43212A97880018F8AA /* regis */,
+				9146BA42212A97800018F8AA /* choose */,
+				9146BA41212A97630018F8AA /* splash screen */,
+				9146BA2B2122DEEF0018F8AA /* AppDelegate.swift */,
+				9146BA2D2122DEEF0018F8AA /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9146BA41212A97630018F8AA /* splash screen */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "splash screen";
+			sourceTree = "<group>";
+		};
+		9146BA42212A97800018F8AA /* choose */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = choose;
+			sourceTree = "<group>";
+		};
+		9146BA43212A97880018F8AA /* regis */ = {
+			isa = PBXGroup;
+			children = (
+				9146BA47212A97E90018F8AA /* regis komunitas */,
+				9146BA45212A97A50018F8AA /* regis donatur */,
+			);
+			path = regis;
+			sourceTree = "<group>";
+		};
+		9146BA44212A979E0018F8AA /* login */ = {
+			isa = PBXGroup;
+			children = (
+				9146BA4A212A98010018F8AA /* login komunitas */,
+				9146BA48212A97F30018F8AA /* login donatur */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
+		9146BA45212A97A50018F8AA /* regis donatur */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "regis donatur";
+			sourceTree = "<group>";
+		};
+		9146BA47212A97E90018F8AA /* regis komunitas */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "regis komunitas";
+			sourceTree = "<group>";
+		};
+		9146BA48212A97F30018F8AA /* login donatur */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "login donatur";
+			sourceTree = "<group>";
+		};
+		9146BA4A212A98010018F8AA /* login komunitas */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "login komunitas";
+			sourceTree = "<group>";
+		};
+		9146BA4B212A98850018F8AA /* home */ = {
+			isa = PBXGroup;
+			children = (
+				9146BA4D212A98C10018F8AA /* home komunitas */,
+				9146BA4C212A98B80018F8AA /* home donatur */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		9146BA4C212A98B80018F8AA /* home donatur */ = {
+			isa = PBXGroup;
+			children = (
+				9146BA4F212A99920018F8AA /* tampilan donasi donatur */,
+			);
+			path = "home donatur";
+			sourceTree = "<group>";
+		};
+		9146BA4D212A98C10018F8AA /* home komunitas */ = {
+			isa = PBXGroup;
+			children = (
+				9146BA5C212A9C200018F8AA /* jenis donasi */,
+			);
+			path = "home komunitas";
+			sourceTree = "<group>";
+		};
+		9146BA4F212A99920018F8AA /* tampilan donasi donatur */ = {
+			isa = PBXGroup;
+			children = (
+				9146BA53212A99C10018F8AA /* uang */,
+				9146BA52212A99AA0018F8AA /* bahan makanan */,
+				9146BA51212A99A20018F8AA /* minuman */,
+				9146BA50212A999B0018F8AA /* makanan */,
+			);
+			path = "tampilan donasi donatur";
+			sourceTree = "<group>";
+		};
+		9146BA50212A999B0018F8AA /* makanan */ = {
+			isa = PBXGroup;
+			children = (
+				9146BA57212A9A0B0018F8AA /* deskripsi makanan */,
+				9146BA54212A99CA0018F8AA /* jenis makanan */,
+			);
+			path = makanan;
+			sourceTree = "<group>";
+		};
+		9146BA51212A99A20018F8AA /* minuman */ = {
+			isa = PBXGroup;
+			children = (
+				9146BA58212A9A180018F8AA /* deskripsi minuman */,
+				9146BA55212A99DE0018F8AA /* jenis minuman */,
+			);
+			path = minuman;
+			sourceTree = "<group>";
+		};
+		9146BA52212A99AA0018F8AA /* bahan makanan */ = {
+			isa = PBXGroup;
+			children = (
+				9146BA59212A9A240018F8AA /* deskripsi bahan makanan */,
+				9146BA56212A99E80018F8AA /* jenis bahan makanan */,
+			);
+			path = "bahan makanan";
+			sourceTree = "<group>";
+		};
+		9146BA53212A99C10018F8AA /* uang */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = uang;
+			sourceTree = "<group>";
+		};
+		9146BA54212A99CA0018F8AA /* jenis makanan */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "jenis makanan";
+			sourceTree = "<group>";
+		};
+		9146BA55212A99DE0018F8AA /* jenis minuman */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "jenis minuman";
+			sourceTree = "<group>";
+		};
+		9146BA56212A99E80018F8AA /* jenis bahan makanan */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "jenis bahan makanan";
+			sourceTree = "<group>";
+		};
+		9146BA57212A9A0B0018F8AA /* deskripsi makanan */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "deskripsi makanan";
+			sourceTree = "<group>";
+		};
+		9146BA58212A9A180018F8AA /* deskripsi minuman */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "deskripsi minuman";
+			sourceTree = "<group>";
+		};
+		9146BA59212A9A240018F8AA /* deskripsi bahan makanan */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "deskripsi bahan makanan";
+			sourceTree = "<group>";
+		};
+		9146BA5C212A9C200018F8AA /* jenis donasi */ = {
+			isa = PBXGroup;
+			children = (
+				9146BA62212A9CAC0018F8AA /* makanan.p */,
+				9146BA61212A9C650018F8AA /* uang.p */,
+				9146BA60212A9C5D0018F8AA /* bahan makanan.p */,
+				9146BA5F212A9C560018F8AA /* minuman.p */,
+			);
+			path = "jenis donasi";
+			sourceTree = "<group>";
+		};
+		9146BA5F212A9C560018F8AA /* minuman.p */ = {
+			isa = PBXGroup;
+			children = (
+				9146BA66212A9D830018F8AA /* list donatur minuman */,
+			);
+			path = minuman.p;
+			sourceTree = "<group>";
+		};
+		9146BA60212A9C5D0018F8AA /* bahan makanan.p */ = {
+			isa = PBXGroup;
+			children = (
+				9146BA65212A9D520018F8AA /* list donatur bahan makanan */,
+			);
+			path = "bahan makanan.p";
+			sourceTree = "<group>";
+		};
+		9146BA61212A9C650018F8AA /* uang.p */ = {
+			isa = PBXGroup;
+			children = (
+				9146BA64212A9D3D0018F8AA /* list donatur uang */,
+			);
+			path = uang.p;
+			sourceTree = "<group>";
+		};
+		9146BA62212A9CAC0018F8AA /* makanan.p */ = {
+			isa = PBXGroup;
+			children = (
+				9146BA63212A9D2F0018F8AA /* list donatur makanan */,
+			);
+			path = makanan.p;
+			sourceTree = "<group>";
+		};
+		9146BA63212A9D2F0018F8AA /* list donatur makanan */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "list donatur makanan";
+			sourceTree = "<group>";
+		};
+		9146BA64212A9D3D0018F8AA /* list donatur uang */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "list donatur uang";
+			sourceTree = "<group>";
+		};
+		9146BA65212A9D520018F8AA /* list donatur bahan makanan */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "list donatur bahan makanan";
+			sourceTree = "<group>";
+		};
+		9146BA66212A9D830018F8AA /* list donatur minuman */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "list donatur minuman";
+			sourceTree = "<group>";
+		};
+		9146BA68212A9DE50018F8AA /* profile */ = {
+			isa = PBXGroup;
+			children = (
+				9146BA6A212A9E1B0018F8AA /* profile komunitas */,
+				9146BA69212A9DEE0018F8AA /* profile donatur */,
+			);
+			path = profile;
+			sourceTree = "<group>";
+		};
+		9146BA69212A9DEE0018F8AA /* profile donatur */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "profile donatur";
+			sourceTree = "<group>";
+		};
+		9146BA6A212A9E1B0018F8AA /* profile komunitas */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "profile komunitas";
+			sourceTree = "<group>";
+		};
+		9146BA6B212A9EFB0018F8AA /* request */ = {
+			isa = PBXGroup;
+			children = (
+				9146BA6E212A9FA50018F8AA /* request komunitas */,
+				9146BA6D212A9F990018F8AA /* request donatur */,
+			);
+			path = request;
+			sourceTree = "<group>";
+		};
+		9146BA6D212A9F990018F8AA /* request donatur */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "request donatur";
+			sourceTree = "<group>";
+		};
+		9146BA6E212A9FA50018F8AA /* request komunitas */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "request komunitas";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
